@@ -1,0 +1,80 @@
+#_navbar_extended{
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+li a{
+    color: #bd66ff!important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+._notificaiton_count{
+    position: absolute;
+    border-radius: 50%;
+    background: red;
+    font-size: 20px;
+    top: -5px;
+    right: -10px;
+    padding: 3px 8px;
+}
+
+.nav-elem-float{
+    float: left!important;
+}
+
+.dropdown-menu-extended {
+    background-color: #373c42;
+    color: white;
+    min-width: 20rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow-y: scroll;
+    max-height: 500px;
+    right: auto;
+    left: 0;
+}
+
+@media (min-width: 992px){
+    .nav-elem-float{
+        float: right!important;
+    }
+
+}
+
+@media (min-width: 612px){
+    .dropdown-menu-extended {
+        background-color: #373c42;
+        color: white;
+        min-width: 20rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        overflow-y: scroll;
+        max-height: 500px;
+        right: 0;
+        left: auto;
+    }
+}
+
+
+#_profile{
+    margin-left: 5px;
+}
+
+#_profile_image{
+    width: 50px;
+    height: 50px;
+}
+
+#_profile_image:hover{
+    border-top: 1px solid #dee2e6!important;
+    border-bottom: 1px solid #dee2e6!important;
+
+    border-radius: 100%;
+}
+  
+hr{
+    background-color: white;
+}

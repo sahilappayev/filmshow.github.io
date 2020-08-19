@@ -1,0 +1,15 @@
+footer{
+    color:#bd66ff;
+    background-color: #343a40;
+    height: 200px;
+}
+
+#_footer_extended{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#_social_icons{
+    padding-top: 3.5rem;
+    font-size: 1.5rem;
+}
